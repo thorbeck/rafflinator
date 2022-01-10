@@ -1,0 +1,80 @@
+{
+  ".svelte-kit/build/runtime/internal/start.js": {
+    "file": "start-977ec72a.js",
+    "src": ".svelte-kit/build/runtime/internal/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-a5e9be6b.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/build/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/about.svelte",
+      "src/routes/todos/index.svelte"
+    ],
+    "css": [
+      "assets/start-61d1577b.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-3bf6d8ff.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a5e9be6b.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-5dc011da.css"
+    ]
+  },
+  ".svelte-kit/build/components/error.svelte": {
+    "file": "error.svelte-5011d464.js",
+    "src": ".svelte-kit/build/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a5e9be6b.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-2e8f6bc6.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a5e9be6b.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-99b12720.css"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-aef044df.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a5e9be6b.js"
+    ],
+    "css": [
+      "assets/pages/about.svelte-bf4528fa.css"
+    ]
+  },
+  "src/routes/todos/index.svelte": {
+    "file": "pages/todos/index.svelte-21cff7fe.js",
+    "src": "src/routes/todos/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-a5e9be6b.js"
+    ],
+    "css": [
+      "assets/pages/todos/index.svelte-784042c1.css"
+    ]
+  },
+  "_vendor-a5e9be6b.js": {
+    "file": "chunks/vendor-a5e9be6b.js"
+  }
+}
