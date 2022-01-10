@@ -1,6 +1,4 @@
-<header>
-	<h1>
-		<svg
+<svg
 			version="1.1"
 			id="Layer_1"
 			xmlns="http://www.w3.org/2000/svg"
@@ -63,48 +61,3 @@
 				d="M723,774c-5.5,0-10-4.5-10-10v-10c0-5.5,4.5-10,10-10s10,4.5,10,10v10C733,769.5,728.5,774,723,774z"
 			/>
 		</svg>
-		<span>The Rafflinator</span>
-	</h1>
-</header>
-
-<style>
-	header {
-		display: flex;
-		justify-content: center;
-		padding: 1rem;
-		background: var(--color-blue-mike);
-	}
-	header:hover svg {
-		animation-iteration-count: infinite;
-	}
-
-	h1 {
-		display: flex;
-		margin: 0;
-		gap: 1rem;
-		user-select: none;
-		justify-content: center;
-		align-items: center;
-	}
-
-	svg {
-		width: 1em;
-		height: 1em;
-		display: block;
-		transform-origin: center center;
-		transform: rotateZ(-45deg);
-		animation: shakeRaffle 140ms ease-in-out 0;
-	}
-
-	@keyframes shakeRaffle {
-		0% {
-			transform: rotateZ(-60deg);
-		}
-		50% {
-			transform: rotateZ(-30deg);
-		}
-		100% {
-			transform: rotateZ(-45deg);
-		}
-	}
-</style>

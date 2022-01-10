@@ -1,0 +1,28 @@
+{
+	"short_name": "Rafflinator",
+	"name": "The Rafflinator",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "logo.svg",
+			"type": "image/svg+xml",
+			"sizes": "any"
+		},
+		{
+			"src": "android-chrome-384x384.png",
+			"type": "image/png",
+			"sizes": "384x384"
+		},
+		{
+			"src": "android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"background_color": "#0388A6",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#0388A6",
+	"shortcuts": [],
+	"description": "Lofi to lofi beats, while using the scratchpad to list down tasks and thoughts"
+}
